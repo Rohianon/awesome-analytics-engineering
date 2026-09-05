@@ -121,6 +121,7 @@ Analytics engineering bridges the gap between data engineering and data analysis
 - [pre-commit-dbt](https://github.com/dbt-checkpoint/dbt-checkpoint) - Pre-commit hooks for dbt projects — validate schemas, check naming conventions.
 - [Datafold CI](https://www.datafold.com/data-diff) - Automated data diff in CI/CD to catch regressions before they hit production.
 - [SQLMesh Plan/Apply](https://sqlmesh.readthedocs.io/en/stable/concepts/plans/) - Built-in CI workflow that shows exact impact of changes before applying.
+- [dbt-plan](https://github.com/PresentJay/dbt-plan) - Predicts the DDL a dbt change will execute, from compiled SQL and the manifest. Needs no warehouse connection, so it runs locally before `dbt run` and on fork pull requests where data-diff tools cannot.
 
 ## SQL Utilities
 
