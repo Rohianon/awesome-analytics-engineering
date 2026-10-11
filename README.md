@@ -83,6 +83,7 @@ Analytics engineering bridges the gap between data engineering and data analysis
 - [Singer](https://www.singer.io/) - Open-source standard for writing scripts that move data (taps and targets).
 - [Sling](https://github.com/slingdata-io/sling-cli) - CLI tool for high-performance data transfer between databases, storage, and files.
 - [CloudQuery](https://github.com/cloudquery/cloudquery) - High-performance ELT framework for syncing cloud infrastructure data.
+- [OLake](https://github.com/datazip-inc/olake) - Open-source replication of Postgres, MySQL, MongoDB, Oracle, SQL Server, DB2, Kafka and S3 into Apache Iceberg, with CDC and table maintenance. Written in Go.
 
 ## Data Warehouses & Lakehouses
 
